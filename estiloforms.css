@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #56070c;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    text-align: center; /*Alinha o texto*/
+    color: #D90D1E;
+}
+.container {
+    background: white;/*Cor de fundo do formulário*/
+    padding: 40px; /*Cria uma "área de respiro" dentro da caixa do elemento.*/
+    border-radius: 20px;
+    width: 400px;
+}
+.container-botoes { /*Para fazer botões lado a lado*/
+    display: flex;
+    gap: 10px;      /* Espaço entre os botões */
+    margin-top: 25px;
+}
+.botao {
+    flex: 1;
+    width: 100%;
+    padding: 10px; /*Cria uma "área de respiro" dentro da caixa do elemento.*/
+    border: none;
+    border-radius: 20px;
+    background-color: #550000;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.redefinir {
+    flex: 1;
+    width: 100%;
+    padding: 10px; /*Cria uma "área de respiro" dentro da caixa do elemento.*/
+    border: none;
+    border-radius: 20px;
+    background-color: #D90D1E;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+input {
+    border-radius: none;
+}

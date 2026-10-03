@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloforms.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>FORMULÁRIO</h1>
+        <form> <!--Para começar a criação de um formulário, temos que receber a informação do usuário-->
+            <input type="email" placeholder="Insira seu E-mail: " required> <!--Input = Recebe a informação, Type = é o tipo de informação recebida-->
+            <input type="password" placeholder="Insira sua Senha: " required> <!--Placeholder mostra dentro da caixa de login ou senha a informação que será inserida-->
+            <label class="remember">
+            <input type="checkbox"> 
+            Lembrar-me
+            </label>
+            <div class="container-botoes">
+            <button class="botao">Entrar</button>
+            <button class="redefinir">Redefinir Senha</button>
+            </div>
+        </form>
+    </div>
+    <script src="acessologin.js"></script>
+</body>
+</html>

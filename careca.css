@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(#D90D1E, #550000);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
